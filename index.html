@@ -9,32 +9,57 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
+        <header class="header--phone">
+            <div class="logo2">
+                <img class="tedgeytoppic" src="pictures/tedgey.png">
+            </div>
+        </header>
         <header class="header--main">
             <div class="logo">
                 <img class="tedgeypic" src="pictures/tedgey.png">
             </div>
             <ul class="apps-list">
-                <li class="nav-list">Home</li>
-                <li class="nav-list">Projects</li>
-                <li class="nav-list">Contact</li>
-                <li class="nav-list">Social</li>
+                <li class="nav-list" id="Home">Home</li>
+                <li class="nav-list" id="Projects">Projects</li>
+                <li class="nav-list" id="Contact">
+                        <a href="mailto:tom.edgeworth47@gmail.com">
+                            Contact
+                        </a>
+                </li>
+                <li class="nav-list" id="Social">Social</li>
             </ul>
         </header>
         <!-- SPINNING TEDGEY LOGO -->
         <h1>Hey! I'm Tom Edgeworth. I'm a full stack web developer out of Atlanta, Georgia.</h1>
             <div class="picturetime">
                 <img class="tedgeypicwithfriends" src="pictures/tedgeyinthemiddle.jpg">
+                <span> 
+                    <img class="mearrow" src="pictures/me-arrow.png">
+                </span>
             </div>
-        <p>Tedgey is my nickname. A combination of Tom and Edgeworth.
+        <p class="caption">Tedgey is my nickname. A combination of Tom and Edgeworth.
         </p>
+
+        <h3>About:</h3>
         <p>
-            I'm a full stack developer looking to join your team! Outside of work I'm a competitive gamer, as well as an ametuer guitar player. I am currently looking for either 
+            I'm a full stack developer looking to join your team! Outside of work I'm a competitive gamer, as well as an amatuer guitar player. I am currently looking for either 
             freelance work or a full time position. 
         </p>
-        <p>
-            Feel free to reach out! Let's grab coffee. 
-        </p>
-        <h2>Interested in doing a project together?</h2> 
-        <!-- "email me" button -->
+        <h3>Projects:</h3>
+            <ul class="image-list">
+                <li>
+                    <img src="pictures/bbsharktitle.jpg">
+                </li>
+        <footer class="calltoaction">
+            <section class="endpagecta">
+                <h2>Interested in doing a project together?</h2>
+                <div class="cta-class"> 
+                    <a href="mailto:tom.edgeworth47@gmail.com" class="cta-button">
+                        Email Me
+                        <span class="arrow-right">→</span>
+                    </a>
+                </div>
+            </section>
+        </footer>
     </body>
 </html>
