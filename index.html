@@ -1,65 +1,184 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>Tom Edgeworth</title>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/index.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    </head>
-    <body>
-        <header class="header--phone">
-            <div class="logo2">
-                <img class="tedgeytoppic" src="pictures/tedgey.png">
-            </div>
-        </header>
-        <header class="header--main">
-            <div class="logo">
-                <img class="tedgeypic" src="pictures/tedgey.png">
-            </div>
-            <ul class="apps-list">
-                <li class="nav-list" id="Home">Home</li>
-                <li class="nav-list" id="Projects">Projects</li>
-                <li class="nav-list" id="Contact">
-                        <a href="mailto:tom.edgeworth47@gmail.com">
-                            Contact
-                        </a>
-                </li>
-                <li class="nav-list" id="Social">Social</li>
-            </ul>
-        </header>
-        <!-- SPINNING TEDGEY LOGO -->
-        <h1>Hey! I'm Tom Edgeworth. I'm a full stack web developer out of Atlanta, Georgia.</h1>
-            <div class="picturetime">
-                <img class="tedgeypicwithfriends" src="pictures/tedgeyinthemiddle.jpg">
-                <span> 
-                    <img class="mearrow" src="pictures/me-arrow.png">
-                </span>
-            </div>
-        <p class="caption">Tedgey is my nickname. A combination of Tom and Edgeworth.
-        </p>
+	<head>
+		<title>tedgey</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
 
-        <h3>About:</h3>
-        <p>
-            I'm a full stack developer looking to join your team! Outside of work I'm a competitive gamer, as well as an amatuer guitar player. I am currently looking for either 
-            freelance work or a full time position. 
-        </p>
-        <h3>Projects:</h3>
-            <ul class="image-list">
-                <li>
-                    <img src="pictures/bbsharktitle.jpg">
-                </li>
-        <footer class="calltoaction">
-            <section class="endpagecta">
-                <h2>Interested in doing a project together?</h2>
-                <div class="cta-class"> 
-                    <a href="mailto:tom.edgeworth47@gmail.com" class="cta-button">
-                        Email Me
-                        <span class="arrow-right">→</span>
-                    </a>
-                </div>
-            </section>
-        </footer>
-    </body>
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html">tedgey</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li>
+									<a href="#">Social</a>
+									<ul>
+										<li><a class="icon brands fa-github" href="https://github.com/tedgey"><span class="label">Github</span></a></li>
+										<li><a class="icon brands fa-twitter" href="https://twitter.com/ThomasEdgeworth"><span class="label">Twitter</span></a></li>
+										<li><a class="icon brands fa-linkedin-in" href="www.linkedin.com/in/tedgey"><span class="label">LinkedIn</span></a></li>
+									</ul>
+								</li>
+								<li><a href="mailto: tom.edgeworth47@gmail.com">Contact</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="https://drive.google.com/open?id=1JAJ-hXMrwoemkJ7hgI7XwwhnEfVnQXG5">Resume</a></li>
+							</ul>
+						</nav>
+
+					<!-- Banner -->
+						<section id="banner">
+							<header>
+								<h2>Hey! My name is Tom Edgeworth</h2>
+								<p>I'm a full stack web developer</p>
+							</header>
+						</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-12">
+								<!-- About Me -->
+								<h2>tedgey</h2>
+								<p> a la "Tom "+ "Edgeworth"</p>
+							</header>
+							<p>
+									I'm a full stack developer with a passion for building. The reason I started the adventure of developing was to flesh out some projects that I want to create myself. Outside of work I'm a competitive gamer, as well as an amatuer guitar player. I am currently looking for a full time position at a company with great culture and room for growth as a full stack web developer. Please check out my work below, and don't hesitate to reach out! 
+							</p>
+
+								<!-- Projects -->
+									<section>
+										<header class="major" id="projects">
+											<h2>Projects</h2>
+										</header>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<a href="http://ec2-18-222-14-113.us-east-2.compute.amazonaws.com/" class="image featured"><img src="images/astrologic.png" id="astrologicPic" /></a>
+													<header>
+														<h3>Astrologic</h3>
+														<p>The Metaphysical Sports Database</p>
+													</header>
+													<p>Astrologic uses Astrology signs to predict your favorite sports star's future. Will LeBron James have a good day tomorrow? Find out here!</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="http://ec2-18-222-14-113.us-east-2.compute.amazonaws.com/" class="button icon solid fa-file-alt">View Live</a></li>
+															<li><a href="https://github.com/tedgey/Astrologic-Sports" class="button alt icon solid fa-comment">GitHub</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<a href="https://github.com/tedgey/babyflappysharky_pygame" class="image featured"><img src="images/bbsharktitle.png" id="bbsharkPic" /></a>
+													<header>
+														<h3>Baby Flappy Shark</h3>
+														<p>Flappy Bird with Fins!</p>
+													</header>
+													<p>Baby Flappy Shark is a children's game created in Python through Pygame that is based on the viral "Flappy Bird" game.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/tedgey/babyflappysharky_pygame" class="button alt icon solid fa-comment">GitHub</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Technologies -->
+				<header class="major" id="projects">
+					<h2>Technologies Used:</h2>
+						<header>
+							<h2></h2>
+						</header>
+						<ul class="social">
+							<li><a class="icon brands fa-js">
+								<span class="label">JavaScript</span></a>
+								<p>JavaScript</p>
+							</li>
+							<li><a class="icon brands fa-python">
+								<span class="label">Python</span></a>
+								<p>Python</p>
+							</li>
+							<li><a class="icon brands fa-node">
+								<span class="label">Node.js</span></a>
+								<p>Node.js</p>
+							</li>
+							<li><a class="icon brands fa-react">
+								<span class="label">React</span></a>
+								<p>React</p>
+							</li>
+							<li><a class="icon brands fa-html5">
+								<span class="label">HTML</span></a>
+								<p>HTML</p>
+							</li>
+							<li><a class="icon brands fa-css3-alt">
+								<span class="label">CSS</span></a>
+								<p>CSS</p>
+							</li>
+				</header>
+
+
+			<!-- Footer -->
+			<header class="major" id="projects">
+				<section id="footer">
+					<div class="container">
+							<h2></h2>
+						<div class="col-4 col-12-medium">
+							<section>
+								<header>
+									<h2>Social Media and Links</h2>
+								</header>
+								<ul class="social">
+									<li><a class="icon brands fa-github" href="https://github.com/tedgey"><span class="label">Github</span></a></li>
+									<li><a class="fab fa-twitter-square" href="https://twitter.com/ThomasEdgeworth"><span class="label"></span></a></li>
+									<li><a class="icon brands fa-linkedin-in" href="https://www.linkedin.com/in/tedgey"><span class="label">LinkedIn</span></a></li>
+									<li><a class="fas fa-envelope-square" href="mailto: tom.edgeworth47@gmail.com"><span class="label"></span></a></li>
+									<li><a class="fas fa-file-pdf" href="https://drive.google.com/open?id=1JAJ-hXMrwoemkJ7hgI7XwwhnEfVnQXG5"><span class="label"></span></a></li>
+							</section>
+						</div>
+						<div class="col-12">
+
+					<!-- Copyright -->
+						<div id="copyright">
+							<ul class="links">
+								<li>&copy; Tedgey. All rights reserved.</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>
+									<a href="mailto: tom.edgeworth47@gmail.com">tom.edgeworth47@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
